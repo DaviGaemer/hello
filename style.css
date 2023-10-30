@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin-left: 15px;
+}
+.color{
+    
+    background-color: brown;
+    height: 180px;
+    width: 160px;
+    
+}
+.load{
+    height: 120px;
+    width: 120px;
+    margin-left: 17px;
+    border-radius: 100px;
+    border: 15px solid;
+    border-top-color: transparent;
+    border-bottom-color:transparent ;
+    animation: change 5s infinite;
+}
+@keyframes change{
+    from{
+        color: black;
+        transform: rotate(0deg);
+        
+    }
+   to{ 
+    color: white;
+    transform: rotate(360deg);
+   }
+}
